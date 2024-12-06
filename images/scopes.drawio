@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" modified="2024-04-09T19:07:33.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="yqofqkH5I3abpGk9D3uK" version="24.2.2" type="device">
+  <diagram name="1 oldal" id="djkAMMtTX_pA8bavxJDi">
+    <mxGraphModel dx="2257" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EsvSOD5s59wfndhh8sss-15" value="employees-frontend&lt;div&gt;[Client]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-1" value="Client scopes" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="330" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EsvSOD5s59wfndhh8sss-4" target="EsvSOD5s59wfndhh8sss-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-4" value="roles&lt;div&gt;[Client scope]&lt;br&gt;&lt;div&gt;nem szabványos&lt;/div&gt;&lt;div&gt;Assigned type: Default&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-8" value="Mappers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="405" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EsvSOD5s59wfndhh8sss-2" target="EsvSOD5s59wfndhh8sss-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-2" value="email&lt;div&gt;[Client scope]&lt;br&gt;&lt;div&gt;OpenID, Default&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EsvSOD5s59wfndhh8sss-3" target="EsvSOD5s59wfndhh8sss-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-3" value="profile&lt;div&gt;[Client scope]&lt;br&gt;&lt;div&gt;OpenID, Default&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;flowAnimation=0;" edge="1" parent="1" source="EsvSOD5s59wfndhh8sss-5" target="EsvSOD5s59wfndhh8sss-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-17" value="Assign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EsvSOD5s59wfndhh8sss-16">
+          <mxGeometry x="-0.1173" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-5" value="avatar_url&lt;div&gt;[Client scope]&lt;br&gt;&lt;div&gt;saját, Optional&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="520" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-7" value="&lt;div&gt;realm roles&lt;/div&gt;[User Realm Role]&lt;div&gt;Token claim name:&amp;nbsp;realm_access.roles&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="125" y="430" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-10" value="Mappers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="580" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-11" value="&lt;div&gt;Avatar URL&lt;/div&gt;[User Attribute]&lt;div&gt;Token claim name:&amp;nbsp;avatar_url&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="125" y="605" width="215" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-13" value="Mappers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-14" value="Mappers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-18" value="Assigned type: Default&lt;div&gt;(nem kell kérni a kliensnek)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EsvSOD5s59wfndhh8sss-19" target="EsvSOD5s59wfndhh8sss-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-19" value="Protocol mapper: claim értékének feltöltése" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="135" width="250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="EsvSOD5s59wfndhh8sss-20" target="EsvSOD5s59wfndhh8sss-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-20" value="Role scope mappings: csak a klienshez tartozó role-okat kapja meg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="200" width="250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-26" value="Client scopes" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-31" value="dedicated&lt;div&gt;[Client scope]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="565" y="350" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EsvSOD5s59wfndhh8sss-32" value="Mappers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
